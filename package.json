@@ -1,0 +1,33 @@
+{
+  "name": "swagger_nodejs",
+  "version": "1.0.0",
+  "description": "nodejs app with swagger",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinestia/swagger_nodejs.git"
+  },
+  "keywords": [
+    "swagger",
+    "openapi3.0",
+    "nodejs"
+  ],
+  "author": "shinestia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinestia/swagger_nodejs/issues"
+  },
+  "homepage": "https://github.com/shinestia/swagger_nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
